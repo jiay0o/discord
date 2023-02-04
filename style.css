@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0px solid red;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    background-color: #FFFFFF;
+}
+ 
+div {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+header,
+nav { 
+    display: inline-block;
+    background-color: #5865f2;
+    color: #FFFFFF;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    padding-left: 22%;
+    font-size: 19px;
+    font-weight:700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 160px 10px 160px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+}
+
+button.login {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+main {
+    display: inline-block;
+    background-color: #5865f2;
+    width:100%;
+}
+
+.content {
+    display: inline-block;
+    padding: 100px 300px 200px 300px; 
+    background-color: #5865f2;
+}
+
+h1 {
+    text-transform:uppercase;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+
+.herotext {
+    display: inline-block;
+    align-content: center;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    padding:25px 280px 25px 280px;
+    width:100%;
+}
+
+.herobuttons {
+    text-align: center;
+    padding: 10px;
+}
+
+button.download {
+    display: inline-block;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+    background-color: #FFFFFF;
+    color:#000000;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+button.browser {
+    display: inline-block;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 5x;    
+}
+
+a:link, a:visited, a:active {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FFFFFF;
+    text-decoration: underline;
+}
