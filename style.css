@@ -12,8 +12,6 @@ body {
 }
  
 div {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
     color: #FFFFFF;
 }
 
@@ -28,6 +26,7 @@ nav {
 
 .logo {
     display: inline-block;
+    background-color: #5865f2;
     padding-left: 22%;
     font-size: 19px;
     font-weight:700;
@@ -62,14 +61,14 @@ button.login {
 
 main {
     display: inline-block;
-    background-color: #5865f2;
     width:100%;
 }
 
 .content {
     display: inline-block;
     padding: 100px 300px 200px 300px; 
-    background-color: #5865f2;
+    width: 100%;
+    background-color:#5865f2;
 }
 
 h1 {
@@ -81,7 +80,6 @@ h1 {
 
 .herotext {
     display: inline-block;
-    align-content: center;
     font-size: 21px;
     line-height: 30px;
     text-align: center;
