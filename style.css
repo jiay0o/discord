@@ -2,16 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid red;
+    outline: 0px solid red;
 }
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     background-color: #FFFFFF;
-}
- 
-div {
     color: #FFFFFF;
 }
 
@@ -32,7 +29,6 @@ nav {
     font-weight:700;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 nav ul {
@@ -78,7 +74,7 @@ h1 {
     font-size: 60px;
 }
 
-.herotext {
+.hero-text {
     display: inline-block;
     font-size: 21px;
     line-height: 30px;
@@ -87,7 +83,7 @@ h1 {
     width:100%;
 }
 
-.herobuttons {
+.hero-buttons {
     text-align: center;
     padding: 10px;
 }
