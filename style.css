@@ -6,22 +6,21 @@
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    background-color: #FFFFFF;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    color: #222;
 }
 
 header,
 nav,
-.header__nav--links { 
+li .header__nav--links { 
     display: inline-block;
     background-color: #5865f2;
-    color: #FFFFFF;
+    color: #FFF;
     padding-top: 10px;
     width: 100%;
 }
 
-.header__logo {
+.main__logo {
     display: inline-block;
     background-color: #5865f2;
     padding-left: 20%;
@@ -47,22 +46,16 @@ nav ul li {
     display: inline-block;
     border-radius: 40px;
     padding: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 15px;
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #000;
+    background-color: #fff;
 }
 
 p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    color: #FFFFFF;
-}
-
-main {
-    display: inline-block;
-    width:100%;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .main__content--hero {
@@ -77,14 +70,13 @@ h1 {
     text-align: center;
     padding: 20px;
     font-size: 60px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 h2 {
     font-size: 40px;
     padding-bottom: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#000000;
+    color:#000;
 }
 
 .content__hero--text {
@@ -103,11 +95,10 @@ h2 {
 .button__text--download {
     display: inline-block;
     border-radius: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;  
-    background-color: #FFFFFF;
-    color:#000000;
+    background-color: #fff;
+    color:#000;
     padding: 20px;
     margin-right: 50px;
 }
@@ -115,11 +106,10 @@ h2 {
 .button__text--browser {
     display: inline-block;
     border-radius: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;  
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
     margin: 5px;    
 }
@@ -129,39 +119,38 @@ section {
 }
 
 .section--text {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 21px;
     line-height: 30px;    
-    color:#000000;
+    color:#000;
 }
 
-.section__01 {
+.create-an-invite__section {
+    display: block;
+    background-color:#fff;
+    font-size: 0;
+    color:#000;
+}
+
+.create-an-invite__container {
     display: block;
     margin: auto;
     width: 100%;
-    background-color:#FFFFFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
     font-size: 0;
-    color:#000000;
+    color:#000;
 }
 
 .section__01--left-img {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
-    padding: 150px;
 }
 
 .section__01--right {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
-    padding-left: 50px;
-    padding-right: 550px;
-    background-color:#FFFFFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
     font-size: 18px;
-    color:#000000;
+    color:#000;
 }
 
 .section__02 {
@@ -169,9 +158,8 @@ section {
     margin: auto;
     width: 100%;
     background-color:#ebebeb;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0;
-    color:#000000;
+    color:#000;
 }
 
 .section__02--left {
@@ -181,9 +169,8 @@ section {
     padding-right: 50px;
     padding-left: 550px;
     background-color:#ebebeb;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    color:#000000;
+    color:#000;
 }
 
 .section__02--right-img {
@@ -197,10 +184,9 @@ section {
     display: block;
     margin: auto;
     width: 100%;
-    background-color:#FFFFFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
     font-size: 0;
-    color:#000000;
+    color:#000;
 }
 
 .section__03--left-img {
@@ -216,10 +202,9 @@ section {
     width: 50%;
     padding-left: 50px;
     padding-right: 550px;
-    background-color:#FFFFFF;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff;
     font-size: 18px;
-    color:#000000;
+    color:#000;
 }
 
 .section__04 {
@@ -227,16 +212,14 @@ section {
     padding: 100px 100px 100px 100px; 
     width: 100%;
     background-color:#ebebeb;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    color:#000000;
+    color:#000;
 }
 
 .section__04--center-header-text {
     background-color:#ebebeb;
     text-transform:uppercase;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
     font-size: 38px;
     font-weight: 700;
     margin: 20px;
@@ -249,8 +232,7 @@ section {
     text-align: center;
     padding:50px 290px 50px 290px;
     width:100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#000000;
+    color:#000;
 }
 
 .section__04--center-img {
@@ -260,9 +242,8 @@ section {
 
 .section__04--text {
     background-color:#ebebeb;
-    color: #000000;
+    color: #000;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
     font-size: 38px;
     font-weight: 700;
     margin: 20px;
@@ -276,28 +257,26 @@ section {
     text-align: center;
     padding:125px 90px 125px 90px;
     width:100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#000000;
+    color:#000;
 }
 
 .button__text--download-bottom {
     display: inline-block;
     border-radius: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;  
-    background-color: #FFFFFF;
-    color:#000000;
+    background-color: #fff;
+    color:#000;
     padding: 20px;
     margin-right: 50px;
 }
 
 a:link, a:visited, a:active {
-    color:#FFFFFF;
+    color:#fff;
     text-decoration: none;
 }
 
 a:hover {
-    color:#FFFFFF;
+    color:#fff;
     text-decoration: underline;
 }
